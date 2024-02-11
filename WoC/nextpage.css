@@ -1,0 +1,101 @@
+*{margin:0;
+    padding:0;
+    }
+body{
+    background: linear-gradient(to right, cyan, blue);}
+#title{
+    background: linear-gradient(to right, yellow, rgb(72, 254, 72), yellow);
+    border: 2px solid black;
+    margin: 0;}
+.hello{
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    background: linear-gradient(to right, rgb(72, 254, 72) 50%, rgb(230, 0, 251) 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black; 
+    margin-left: 330px;}
+#time{
+    background: linear-gradient(to right, yellow 50%, rgb(230, 0, 251) 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;}
+#boxes{
+    width:305px;
+    height: 306px;
+    background-color: white;
+    padding: 0;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+    box-shadow: black 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    box-shadow: 0px 0px 50px rgb(58, 43, 59),
+                -0px -0px 50px rgb(58, 43, 59),
+                0px -0px 50px rgb(58, 43, 59),
+                -0px 0px 50px rgb(58, 43, 59);
+            }
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;    
+    }
+
+.bye{
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    background: yellow;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;
+    top: 90px;
+    position: relative;
+}
+
+#turn{
+    margin-left: 560px;
+}
+
+#current{
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    background: rgb(230, 0, 251);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;
+    margin-left: 130px;
+}
+
+#pieces{
+    width:915px;
+    height: 102px;
+    background-color: white;
+    padding: 0;
+    margin:0 auto;
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-wrap: wrap; 
+    box-shadow: 0px 0px 50px rgb(58, 43, 59),
+                -0px -0px 50px rgb(58, 43, 59),
+                0px -0px 50px rgb(58, 43, 59),
+                -0px 0px 50px rgb(58, 43, 59);
+            }
+
+.piece{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;    
+    }
+
+.piece img{
+    height: 100px;
+}
